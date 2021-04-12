@@ -6,11 +6,11 @@ import {View,Text,Image,StyleSheet} from 'react-native'
 const Card = (props) => {
   return (
     <View style={style.container}>
-      <Text>{props.name}</Text>
-      <Text>{props.username}</Text>
-      <Text>{props.email}</Text>
-      <Text>{props.address}</Text>
-      <Text>{props.phone}</Text>
+      <Text>Name: {props.name}</Text>
+      <Text>Username: {props.username}</Text>
+      <Text>Email {props.email}</Text>
+      <Text>Address: {props.address}</Text>
+      <Text>Phone: {props.phone}</Text>
     </View>
   )
 }
